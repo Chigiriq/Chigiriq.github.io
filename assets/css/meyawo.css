@@ -12178,7 +12178,7 @@ pre .code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: left;
+  text-align: center;
   justify-content: center;
   flex-direction: column-reverse;
 }
@@ -12186,7 +12186,7 @@ pre .code {
 .about-img-holder {
   min-width: 400px;
   max-width: 400px;
-  margin-right: 20px;
+  margin-right: center;
 }
 
 .about-img-holder .about-img {
@@ -12200,6 +12200,7 @@ pre .code {
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 350px;
+  
 }
 
 @media (max-width: 767.98px) {
